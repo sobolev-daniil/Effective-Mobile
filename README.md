@@ -17,10 +17,13 @@
    ```bash
    git clone https://github.com/sobolev-daniil/Effective-Mobile.git
    cd Effective-Mobile
-2. **Запустите проект**
+2. **Создайте файл с переменными окружения**
+   ```bash
+   cp .env.example .env
+3. **Запустите проект**
    ```bash
    docker-compose up -d
-3. **Проверьте, что все контейнеры запустились**
+4. **Проверьте, что все контейнеры запустились**
    ```bash
    docker-compose ps
 
