@@ -22,10 +22,10 @@
    cp .env.example .env
 3. **Запустите проект**
    ```bash
-   docker-compose up -d
+   docker compose up -d
 4. **Проверьте, что все контейнеры запустились**
    ```bash
-   docker-compose ps
+   docker compose ps
 
 ### Проверка работоспособности
 
@@ -37,7 +37,7 @@
    curl http://localhost:8080
 3. **Просмотр логов**
    ```bash
-   docker-compose logs -f
+   docker compose logs -f
    
 ## Архитектура проекта (кратко)
 
